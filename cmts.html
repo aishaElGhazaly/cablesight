@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMTS Systems — Cablesight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <img src="logo.png" alt="Cablesight Logo" class="logo-img">
+      </a>
+      <nav id="desktop-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="cmts.html">CMTS Systems</a>
+        <a class="nav-link" href="software.html">Software</a>
+        <a class="nav-cta" href="contact.html">Contact Us</a>
+      </nav>
+      <div class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav">
+    <a class="mobile-nav-link" href="index.html" onclick="closeMobileNav()">Home</a>
+    <a class="mobile-nav-link active" href="cmts.html" onclick="closeMobileNav()">CMTS Systems</a>
+    <a class="mobile-nav-link" href="software.html" onclick="closeMobileNav()">Software</a>
+    <a class="mobile-nav-cta" href="contact.html" onclick="closeMobileNav()">Contact Us</a>
+  </div>
+
+  <main>
+
+    <section class="page-header">
+      <div class="page-header-inner">
+        <div class="section-label">Hardware</div>
+        <h1>CMTS Systems &amp; Engineering</h1>
+        <p>We supply and configure DOCSIS 3.0 and 3.1 CMTS platforms across major vendors — backed by full RF and network engineering support. Custom builds, system integration, and worldwide deployment available.</p>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="section">
+
+        <div class="cmts-grid">
+          <div class="cmts-tier">
+            <div class="cmts-tier-header teal"><h3>DOCSIS 3.1 Systems</h3></div>
+            <div class="cmts-tier-body">
+              <div class="cmts-brand-block">
+                <div class="cmts-brand">Commscope (CASA) — Chassis Options</div>
+                <div class="cmts-models">C40G &nbsp;·&nbsp; C100G</div>
+              </div>
+              <div class="cmts-brand-block">
+                <div class="cmts-brand">Commscope (CASA) — Components</div>
+                <div class="cmts-models">US16x8 · DS8x96 · DS8x192<br>BDM/2 · SMM-2x10GE · SMM-8x10GE<br>SMM-300G · 48V Rectifier</div>
+              </div>
+            </div>
+          </div>
+          <div class="cmts-tier">
+            <div class="cmts-tier-header dark"><h3>DOCSIS 3.0 Systems</h3></div>
+            <div class="cmts-tier-body">
+              <div class="cmts-brand-block">
+                <div class="cmts-brand">CASA</div>
+                <div class="cmts-models">C1G &nbsp;·&nbsp; C2200 &nbsp;·&nbsp; C3200 &nbsp;·&nbsp; C10G</div>
+              </div>
+              <div class="cmts-brand-block">
+                <div class="cmts-brand">Cisco</div>
+                <div class="cmts-models">uBR10012 — MC20x20V or MC3GX60V RF options</div>
+              </div>
+              <div class="cmts-brand-block">
+                <div class="cmts-brand">Cisco Accessories</div>
+                <div class="cmts-models">RFGW-1 · RFGW-10 · Harmonic NSG9000 · TC1000</div>
+              </div>
+              <div class="cmts-brand-block">
+                <div class="cmts-brand">ATX / Pico</div>
+                <div class="cmts-models">MiniCMTS200a</div>
+              </div>
+              <div class="cmts-brand-block">
+                <div class="cmts-brand">Blonder-Tongue</div>
+                <div class="cmts-models">BT3000</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:3rem;">
+          <div class="section-label">Also Available</div>
+          <h2 class="section-title" style="font-size:1.5rem;">Integrated Software Bundling</h2>
+          <div class="section-divider"></div>
+          <p style="font-size:14.5px; color:var(--ink-muted); max-width:600px; line-height:1.75;">
+            Pair your CMTS platform with DOXcontrol provisioning and management software for a fully integrated deployment — supported by a single engineering team across hardware and software.
+          </p>
+        </div>
+
+        <div class="callout" style="margin-top:2.5rem;">
+          <div class="callout-text">
+            <strong>Deploying or expanding your CMTS infrastructure?</strong>
+            <span>Our engineering team supports commissioning, integration, and long-term operation — worldwide.</span>
+          </div>
+          <a class="btn-primary" href="contact.html">Discuss Your Deployment</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left"><strong>Cablesight, Inc.</strong> · Ann Arbor, Michigan · 25+ Years in the Cable Business</div>
+      <div class="footer-right"><a href="mailto:info@cablesight.com">info@cablesight.com</a> · <a href="tel:+17346653000">(734) 665-3000</a></div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

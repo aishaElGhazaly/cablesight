@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software — Cablesight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <img src="logo.png" alt="Cablesight Logo" class="logo-img">
+      </a>
+      <nav id="desktop-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="cmts.html">CMTS Systems</a>
+        <a class="nav-link active" href="software.html">Software</a>
+        <a class="nav-cta" href="contact.html">Contact Us</a>
+      </nav>
+      <div class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav">
+    <a class="mobile-nav-link" href="index.html" onclick="closeMobileNav()">Home</a>
+    <a class="mobile-nav-link" href="cmts.html" onclick="closeMobileNav()">CMTS Systems</a>
+    <a class="mobile-nav-link active" href="software.html" onclick="closeMobileNav()">Software</a>
+    <a class="mobile-nav-cta" href="contact.html" onclick="closeMobileNav()">Contact Us</a>
+  </div>
+
+  <main>
+
+    <section class="page-header">
+      <div class="page-header-inner">
+        <div class="section-label">Cablesight Software</div>
+        <h1>DOXcontrol Software Suite</h1>
+        <p>IPv4 and IPv6 network management software purpose-built for cable operators running CMTS and DOCSIS infrastructure.</p>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="section">
+        <div class="dox-suite-intro">
+          <div class="kicker">About the Suite</div>
+          <h2>Powerful. Practical. Priced for operators.</h2>
+          <p>The DOXcontrol suite was developed from the ground up for DOCSIS and EURODOCSIS broadband environments. It's robust, affordably priced, and designed by people who understand cable operations — not generic IT tools adapted for cable.</p>
+        </div>
+
+        <div class="software-layout">
+
+          <div class="software-product">
+            <div class="product-header">
+              <div class="product-name"><span class="accent">DOX</span>control CORE</div>
+              <span class="product-tag">Cable Modem Provisioning System</span>
+            </div>
+            <div class="product-body">
+              <p>A powerful yet easy-to-use cable modem provisioning system for operators of any size. Manages the full lifecycle of DOCSIS provisioning across your network.</p>
+              <ul class="feature-list">
+                <li>IPv4 and IPv6 provisioning support</li>
+                <li>Scalable for small and large deployments</li>
+                <li>Designed for DOCSIS and EURODOCSIS networks</li>
+                <li>CMTS-agnostic — works with all major vendors</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="software-product">
+            <div class="product-header">
+              <div class="product-name"><span class="accent">DOX</span>control ModemPad™</div>
+              <span class="product-tag">DOCSIS Config File Editor</span>
+            </div>
+            <div class="product-body">
+              <p>The leading DOCSIS modem and MTA configuration file editor. Simplifies the complex steps involved in crafting and maintaining config files at scale.</p>
+              <ul class="feature-list">
+                <li>Step-by-step wizard guides the entire process</li>
+                <li>Shows DOCSIS MIBs by name — not cryptic OIDs</li>
+                <li>Supports both modem and MTA configuration</li>
+                <li>Reduces errors, speeds up provisioning</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="software-product">
+            <div class="product-header">
+              <div class="product-name"><span class="accent">DOX</span>control MIB Viewer</div>
+              <span class="product-tag">Network MIB Browser</span>
+            </div>
+            <div class="product-body">
+              <p>A low-cost, practical alternative to expensive MIB browser tools — purpose-built for cable network operators who need to inspect DOCSIS MIBs without the overhead.</p>
+              <ul class="feature-list">
+                <li>Human-readable MIB name display</li>
+                <li>Affordable alternative to enterprise browsers</li>
+                <li>Focused feature set for cable environments</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="software-product">
+            <div class="product-header">
+              <div class="product-name">Telawatch</div>
+              <span class="product-tag">CMTS &amp; Mikrotik Mobile Monitoring</span>
+            </div>
+            <div class="product-body">
+              <p>Mobile-first monitoring software for CMTS and Mikrotik environments. Stay on top of your network from anywhere — built for field engineers who need visibility on the go.</p>
+              <ul class="feature-list">
+                <li>Mobile-accessible interface</li>
+                <li>CMTS and Mikrotik device support</li>
+                <li>Real-time alerts and status visibility</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="callout">
+          <div class="callout-text">
+            <strong>Ready to see it in action?</strong>
+            <span>Contact us to schedule a demo or request a free trial of any DOXcontrol product.</span>
+          </div>
+          <a class="btn-primary" href="contact.html">Request a Demo</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left"><strong>Cablesight, Inc.</strong> · Ann Arbor, Michigan · 25+ Years in the Cable Business</div>
+      <div class="footer-right"><a href="mailto:info@cablesight.com">info@cablesight.com</a> · <a href="tel:+17346653000">(734) 665-3000</a></div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

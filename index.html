@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cablesight — CMTS Hardware, DOCSIS Software & Broadband Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="index.html">
+        <img src="logo.png" alt="Cablesight Logo" class="logo-img">
+      </a>
+      <nav id="desktop-nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="cmts.html">CMTS Systems</a>
+        <a class="nav-link" href="software.html">Software</a>
+        <a class="nav-cta" href="contact.html">Contact Us</a>
+      </nav>
+      <div class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav">
+    <a class="mobile-nav-link active" href="index.html" onclick="closeMobileNav()">Home</a>
+    <a class="mobile-nav-link" href="cmts.html" onclick="closeMobileNav()">CMTS Systems</a>
+    <a class="mobile-nav-link" href="software.html" onclick="closeMobileNav()">Software</a>
+    <a class="mobile-nav-cta" href="contact.html" onclick="closeMobileNav()">Contact Us</a>
+  </div>
+
+  <main>
+
+    <section class="page-section hero">
+      <div class="hero-inner">
+        <div class="hero-label">25+ Years in the Cable Business</div>
+        <h1>Hardware, Software &amp; <em>Engineering</em> for Cable Operators</h1>
+        <p>Based in Ann Arbor, Michigan — we've been in the cable business for over 25 years. We supply CMTS equipment, develop management software, and provide RF/Network engineering support to operators worldwide.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="contact.html">Get a Deployment Plan</a>
+          <a class="btn-secondary" href="cmts.html">Explore CMTS Systems</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section stats">
+      <div class="stats-inner">
+        <div class="stat">
+          <div class="stat-num">25<span>+</span></div>
+          <div class="stat-label">Years in Business</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num"><span>D3.1</span></div>
+          <div class="stat-label">Latest DOCSIS Standard</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">
+            <svg style="width:36px;height:36px;stroke:var(--teal);fill:none;stroke-width:1.8;vertical-align:middle;" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" />
+            </svg>
+          </div>
+          <div class="stat-label">Worldwide Service</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="section">
+        <div class="section-label">What We Do</div>
+        <h2 class="section-title">Full-Stack Broadband Infrastructure Support</h2>
+        <div class="section-divider"></div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" /><path d="M8 21h8M12 17v4" /></svg></div>
+            <h3>CMTS Hardware Sales</h3>
+            <p>We stock and source DOCSIS 3.0 and 3.1 CMTS systems from CASA, Commscope, Cisco, ATX/Pico, and Blonder-Tongue — with custom configurations and full engineering support available.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg></div>
+            <h3>Network Software</h3>
+            <p>Our DOXcontrol suite manages IPv4/IPv6 provisioning, modem configuration, MIB diagnostics, and real-time monitoring — purpose-built for cable operators.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" /></svg></div>
+            <h3>RF / Network Engineering</h3>
+            <p>On-site and remote engineering for cable, Switched Ethernet, and Fiber/GPON networks — including installation, commissioning, optimization, and troubleshooting worldwide.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section inventory-section">
+      <div class="section">
+        <div class="inventory-header">
+          <div>
+            <div class="section-label">Available Now</div>
+            <h2 class="section-title">Current Inventory</h2>
+            <div class="section-divider"></div>
+          </div>
+          <span class="inv-badge">October 2025</span>
+        </div>
+        <div class="inventory-grid">
+          <div class="inv-group">
+            <div class="inv-group-title">Cable Modems</div>
+            <div class="inv-row"><span class="inv-desc">Hitron CODA-4582U D3.1 WiFi Cable Modem — Refurb</span><span class="inv-price">$38</span></div>
+          </div>
+          <div class="inv-group">
+            <div class="inv-group-title">CASA / Commscope CMTS</div>
+            <div class="inv-row"><span class="inv-desc">CASA C1G / C2200 / C3200 — DOCSIS 3.0</span><span class="inv-price">Quote</span></div>
+            <div class="inv-row"><span class="inv-desc">CASA C10G DOCSIS 3.1 CMTS (Custom Configurations)</span><span class="inv-price">Quote</span></div>
+            <div class="inv-row"><span class="inv-desc">Commscope (CASA) C40G DOCSIS 3.1 CMTS (Custom Configurations)</span><span class="inv-price">Quote</span></div>
+            <div class="inv-row"><span class="inv-desc">Commscope (CASA) C100G DOCSIS 3.1 CMTS (Custom Configurations)</span><span class="inv-price">Quote</span></div>
+          </div>
+          <div class="inv-group">
+            <div class="inv-group-title">CASA / Commscope Components</div>
+            <div class="inv-row"><span class="inv-desc">CASA DS8x192, 512 Channels, 8 Ports, 16 OFDM (D3.1)</span><span class="inv-price">Quote</span></div>
+            <div class="inv-row"><span class="inv-desc">CASA US16x8, 128 Channels, 16 Ports, 16 OFDMa (D3.1)</span><span class="inv-price">Quote</span></div>
+            <div class="inv-row"><span class="inv-desc">Commscope (CASA) BMD / BMD2 Cards (D3.1)</span><span class="inv-price">Quote</span></div>
+          </div>
+          <div class="inv-group">
+            <div class="inv-group-title">Cisco &amp; ATX / Pico</div>
+            <div class="inv-row"><span class="inv-desc">Cisco uBR10012 Bundle w/ MC20x20V or MC3GX60V (M-CMTS)</span><span class="inv-price">$5,000+</span></div>
+            <div class="inv-row"><span class="inv-desc">ATX (Pico) MiniCMTS200a DOCSIS 3.0 CMTS (16×4)</span><span class="inv-price">$2,000</span></div>
+          </div>
+          <div class="inv-group">
+            <div class="inv-group-title">Software Licenses</div>
+            <div class="inv-row"><span class="inv-desc">DOXcontrol DOCSIS Provisioning &amp; Management Software</span><span class="inv-price">Quote</span></div>
+            <div class="inv-row"><span class="inv-desc">Telawatch CMTS and Mikrotik Mobile Monitoring Software</span><span class="inv-price">Quote</span></div>
+          </div>
+        </div>
+        <p style="margin-top:1.5rem; font-size:13.5px; color:var(--ink-muted);">
+          Prices shown are starting points. All "Quote" items are configured to your network requirements.
+          <a class="text-link" href="contact.html">Contact us</a> for a custom quote.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left"><strong>Cablesight, Inc.</strong> · Ann Arbor, Michigan · 25+ Years in the Cable Business</div>
+      <div class="footer-right"><a href="mailto:info@cablesight.com">info@cablesight.com</a> · <a href="tel:+17346653000">(734) 665-3000</a></div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
